@@ -45,6 +45,7 @@ body {
   /* To Do Section */
   .week {
     flex-grow: 3;
+    flex-direction: column;
   }
   
   .row {
