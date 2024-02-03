@@ -27,6 +27,15 @@ body {
   h2 {
     margin: 10px;
   }
+
+  /* Flexbox */
+  .container, .square { 
+    display: flex;
+  }
+
+  .week, .reminders{
+    display: inline-flex;
+  }
   
   /* App Container */
   .container {
