@@ -29,7 +29,7 @@ body {
   }
 
   /* Flexbox */
-  .container, .square { 
+  .container, .square, .row { 
     display: flex;
   }
 
@@ -44,11 +44,11 @@ body {
   
   /* To Do Section */
   .week {
+    flex-grow: 3;
   }
   
   .row {
     min-height: 200px;
-    display: flex;
   }
   
   .square {
@@ -76,6 +76,7 @@ body {
   /* Reminders */
   .reminders {
     background-color: khaki;
+    flex-grow: 2;
   }
   
   .reminders h3 {
