@@ -50,6 +50,7 @@ body {
   
   .row {
     min-height: 200px;
+    flex-wrap: wrap;
   }
   
   .square {
